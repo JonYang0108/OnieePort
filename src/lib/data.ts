@@ -134,7 +134,7 @@ export const PROJECTS: Project[] = [
     "JWT",
     "Twilio",
     "AWS S3"],
-    liveUrl: "https://oniee-port.vercel.app/",
+    liveUrl: "https://brg-yweb.vercel.app/",
     repoUrl: "https://github.com/JonYang0108",
     overview:
       "A comprehensive analytics dashboard that surfaces product KPIs in real time with rich charting and export options.",
