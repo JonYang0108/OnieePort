@@ -123,12 +123,18 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "analytics-dashboard",
-    title: "Analytics Dashboard",
+    slug: "barangay-service-request-system",
+    title: "Barangay Service Request System",
     image: project1,
-    tagline: "Real-time SaaS analytics with charts, filters and exports.",
-    tech: ["React", "TypeScript", "Tailwind", "Node.js", "MongoDB"],
-    liveUrl: "#",
+    tagline: "Digitizing barangay document requests for faster, more transparent local governance",
+    tech: [ "Node.js",
+    "Express",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Twilio",
+    "AWS S3"],
+    liveUrl: "https://oniee-port.vercel.app/",
     repoUrl: "https://github.com/JonYang0108",
     overview:
       "A comprehensive analytics dashboard that surfaces product KPIs in real time with rich charting and export options.",
